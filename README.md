@@ -76,7 +76,7 @@ Requires [zig v0.12.x](https://ziglang.org).
     ```zig
     const module = b.addModule("zli", .{
         .root_source_file = .{
-            .path = "libs/zli/zli.zig",
+            .path = "libs/zli/src/zli.zig",
         },
     });
 
