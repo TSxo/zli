@@ -66,7 +66,7 @@ pub fn main() !void {
         },
 
         pub const help =
-            \\ Usage: app [command] [optins]
+            \\ Usage: app [command] [options]
             \\
             \\ Commands:
             \\  empty           Runs the empty command.

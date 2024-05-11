@@ -99,7 +99,7 @@ const help = @import("./help.zig");
 ///     },
 ///
 ///     pub const help =
-///         \\ Usage: app [command] [optins]
+///         \\ Usage: app [command] [options]
 ///         \\
 ///         \\ Commands:
 ///         \\  view            View the last n items.

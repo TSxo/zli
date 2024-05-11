@@ -166,7 +166,7 @@ pub fn main() !void {
         },
 
         pub const help =
-            \\ Usage: app [command] [optins]
+            \\ Usage: app [command] [options]
             \\
             \\ Commands:
             \\  empty           Runs the empty command.
@@ -387,7 +387,7 @@ const App = union(enum) {
     delete: Delete,
 
     pub const help =
-        \\ Usage: app [command] [optins]
+        \\ Usage: app [command] [options]
         \\
         \\ Commands:
         \\  view            View the last n items.
