@@ -317,7 +317,7 @@ const ViewAll = struct {
         \\
         \\ Usage:
         \\
-        \\ app view-all -p, --data-path=<path>]
+        \\ app view-all -p, [--data-path=<path>]
         \\
         \\ Options:
         \\

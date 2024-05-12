@@ -33,6 +33,7 @@ const View = struct {
 
 const ViewAll = struct {
     data_path: []const u8 = "./data/data.json",
+
     pub const aliases = .{
         .data_path = "p",
     };
@@ -42,7 +43,7 @@ const ViewAll = struct {
         \\
         \\ Usage:
         \\
-        \\ app view-all -p, --data-path=<path>]
+        \\ app view-all [-p, --data-path=<path>]
         \\
         \\ Options:
         \\
